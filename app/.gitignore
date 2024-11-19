@@ -1,0 +1,94 @@
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file (sdk paths, etc)
+local.properties
+
+# Log files
+*.log
+
+# Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Keystore files
+*.jks
+*.keystore
+
+# Gradle Wrapper
+!gradle-wrapper.jar
+gradle-wrapper.properties
+gradle/
+
+# Android build files
+*.apk
+*.ap_
+*.dex
+*.class
+*.war
+*.jar
+
+# Compiled code and build directories
+/bin/
+out/
+
+# Lint reports
+lint/reports/
+lint/intermediates/
+
+# Temporary files
+tmp/
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.swp
+*.swo
+*.swn
+*.orig
+
+# Miscellaneous
+*.lock
+*.gz
+*.zip
+
+# Generated files
+/captures/
+.externalNativeBuild/
+
+# Ignore JetBrains cache
+/.idea/caches/
+/.idea/libraries/
+/.idea/workspace.xml
+/.idea/modules.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+
+# Ignore Android specific files
+/.idea/codeStyles/
+/.idea/vcs.xml
+
+# Kotlin
+*.kotlin_metadata
+
+# Generated files by Android Studio
+*.crash
+*.screenshots/
+
+# Debug configuration files
+*.bat
+*.sh
+
+# Virtual environment files
+.vscode/
+*.env
+*.venv
+
+# Testing
+test-results/
+.coverage/
